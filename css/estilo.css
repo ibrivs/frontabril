@@ -11,12 +11,30 @@ h3 {font-size: 20px;
 font-family: Arial;}
 ol {font-family: Courier}
 ul {font-family: Courier}
-.cuerpo {
-  padding: 70px;
+header h1{
+  padding: 20px;
+  padding-top: 70px ;
   display: grid;
   grid-row-gap: 16px;
   justify-items: center;
-  text-align: left;}
+  text-align: center;}
+  header h2 {
+    display: grid;
+    grid-row-gap: 16px;
+    justify-items: center;
+    text-align: left;}
+  section {
+    padding: 40px;
+    display: grid;
+    grid-row-gap: 16px;
+    justify-items: center;
+    text-align: left;}
+    main {
+      padding: 70px;
+      display: grid;
+      grid-row-gap: 16px;
+      justify-items: center;
+      text-align: left;}
 .oscuro { color: #922B21}
 .intermedio { color: #C0392B}
 .claro { color: #EC7063}
@@ -30,7 +48,7 @@ ul {font-family: Courier}
    border-style:solid;
    background: #EC7063;}
 .img {text-align: center;
-    padding: 10px;
+padding-left: 50px ;
     color:red;
     border:2px;
     border-color:#922B21;
@@ -43,5 +61,4 @@ ul {font-family: Courier}
     display:inline;
     padding-left:30px;
     padding-right:30px;
-    background-color: #FFF0CF
   }
