@@ -1,102 +1,103 @@
-body { background-color: #FFF0CF }
-h1 {font-size:50px;
-   font-family:Georgia;
-   font-weight:bold;
-   font-style:italic;
-   line-height:30px;
-   text-decoration:underline;
-   text-align:center;}
-h2 {font-family:Courier;}
-h3 {font-size: 20px;
-font-family: Arial;}
-ol {font-family: Courier}
-ul {font-family: Courier}
-header h1{
-  padding: 20px;
-  padding-top: 70px ;
-  display: grid;
-  grid-row-gap: 16px;
-  justify-items: center;
-  text-align: center;}
-  header h2 {
-    display: grid;
-    grid-row-gap: 16px;
-    justify-items: center;
-    text-align: left;}
-  section {
-    padding: 40px;
-    display: grid;
-    grid-row-gap: 16px;
-    justify-items: center;
-    text-align: left;}
-    main {
-      padding: 70px;
-      display: grid;
-      grid-row-gap: 16px;
-      text-align: left;}
-  footer{text-align: center;}
-.oscuro { color: #922B21}
-.intermedio { color: #C0392B}
-.claro { color: #EC7063}
-.nav ul {
-  list-style-type: none;
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  color: #C0392B ;
+  font-family:Courier;
+}
+h3{
+  color: #C0392B ;
+  font-size: 20px ;
+  font-family: Arial ;
+}
+li {
+  font-family: Courier ;
+  color: #EC7063 ;
+}
+header div {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px ;
+}
+header h1 {
   text-align: center;
+  margin-top: 40px ;
+  margin-bottom: 0px;
+  color: #922B21 ;
+  font-family:Georgia;
+  font-weight:bold;
 }
 .nav {
-    position: fixed;
-    top: 0;
-    left: 0 ;
-    padding: 0 20px;
-    width: 100%;
-    height: 50px;
-    background-color: #922B21;
-}
-.nav img{
-  float: left;
-  width: 50px
-}
-.nav li {
-  display: inline;
-  text-align: center;
-  margin: 0 10px 0 0;
-}
-.nav li a {
-  padding: 2px 7px 2px 7px;
-  color: #EC7063;
+  position: fixed;
+  top: 0 ;
+  left: 0 ;
+  right: 0 ;
+  padding: 0 0px ;
+  width: 100%;
+  height: 80px;
   background-color: #922B21;
-  border: 1px solid #922B21;
+}
+.cuentas img {
+  display: flex;
+  flex-direction: column;
+  width: 20px ;
+  margin: 5px 10px
+}
+nav h1 {
+   font-size: 40px;
+   font-family: Georgia;
+   font-weight: bold;
+   font-style: italic;
+   line-height: 30px;
+   text-decoration: underline;
+   text-align: center;
+   color: #EC7063 ;
+}
+.logo {
+  width: 70px
+}
+section {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px ;
+}
+.receta {
+  margin: 50px ;
+  margin-bottom: 0 ;
+  text-decoration: underline;
+}
+main {
+  margin-top: 0px ;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 50px ;
+}
+aside {
+  display: flex;
+  justify-content: center;
+  margin: 50px ;
+  margin-bottom: 0 ;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px ;
+  background-color: #922B21;
+}
+footer iframe {
+  width: 200px ;
+  height: 200px ;
+}
+footer ul {
+  color: #922B21 ;
+  margin-top: 50px ;
   text-decoration: none;
 }
-.nav li a:hover {
-  background-color:#C0392B;
-  color: #EC7063
+.cuentas2 img {
+  width: 50px ;
+  margin: 70px 10px
 }
-.img {text-align: center;
-padding-left: 50px ;
-}
-.icon1{
-  padding-top: 10px ;
-  width: 30px;
-  float: none;
-}
-.icon2 {
-  padding-top: 10px ;
-  width: 30px ;
-  float: none;
-}
-.link {text-align: center;}
-
-  .list li { font-family: impact;
-    display:inline;
-    padding-left:30px;
-    padding-right:30px;
-  }
-  .nave {color:#922B21;
-    text-align: center;
-     font-size:20px ;
-     font-family: Arial;
-     padding-right: 10px;
-     border:2px;
-     border-color:#EC7063;
-     border-style:solid;
-     background: #EC7063;}
