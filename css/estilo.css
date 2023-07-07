@@ -4,6 +4,42 @@
   font-family: "huno";
   src: url("../fuente/Viory.ttf") format("truetype");
 }
+@media (min-width:575px) {
+  body {
+    background-color: #FCF3CF ;
+  }
+}
+@media (max-width:575px) {
+  body {
+    background-color: #F6DDCC ;
+  }
+  header {
+    margin-top: 15%
+  }
+}
+@media (min-width:576px){
+   .torta {
+     display: none;
+   }
+}
+
+@media (max-width: 576px) {
+  .tortila {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+    background-color: #F6DDCC ;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+    background-color: #FCF3CF ;
+  }
+}
 h1 {
   font-family: 'Bree Serif', serif;
 }
@@ -84,12 +120,15 @@ section {
 main {
   margin-top: 0 ;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   flex-direction: column;
   margin: 5% ;
 }
 .lado {
-  font-size: 2rem
+  font-size: 1.5rem ;
+  display: flex;
+  justify-content: flex-start;
+  float: left;
 }
 aside {
   display: flex;
