@@ -7,11 +7,12 @@
   	<meta name="keywords" content="papa, tortilla, comida española, comida, recetas">
     <meta name="author" content="abrilvaras">
     <title>Tortilla Española</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="shortcut icon" href="./icono/papa.ico" />
   </head>
   <body>
-    <nav class="nav">
+    <nav class="container-fuid">
       <img class="logo" src="./icono/papa.ico" alt="icono-papa">
       <h1>Tortilla de Papa</h1>
       <div class="cuentas">
@@ -35,18 +36,43 @@
      </div>
      <h2 class="receta">Receta de tortilla mediana:</h2>
      </section>
-     <aside class="lado">
-       <ul>
-         <h3>Ingredientes:</h3>
-         <li>4 Huevos</li>
-         <li>3 papas medianas</li>
-         <li>1/2 Cebolla</li>
-         <li>Sal</li>
-         <li>Aceite</li>
-       </ul>
-     </aside>
+     <h3 class="ing">Ingredientes:</h3>
+     <div class="row">
+        <div class="huevo col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img src="./imagen/huevos.jpg" class="card-img-top" alt="huevos">
+              <div class="card-body">
+                 <h5 class="card-title">Cuatro huevos</h5>
+              </div>
+          </div>
+          </div>
+            <div class="cebolla col-sm-12 col-md-6 col-lg-3">
+             <div class="card">
+               <img src="./imagen/cebolla.jpg" class="card-img-top" alt="cebollas">
+                  <div class="card-body">
+                    <h5 class="card-title">1/2 de Cebolla</h5>
+                  </div>
+             </div>
+           </div>
+          <div class="sal col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img src="./imagen/sal.jpg" class="card-img-top" alt="sal">
+                <div class="card-body">
+                  <h5 class="card-title">Sal</h5>
+                </div>
+            </div>
+          </div>
+          <div class="aceite col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img src="./imagen/aceite.jpg" class="card-img-top" alt="aceite">
+              <div class="card-body">
+                <h5 class="card-title">Aceite</h5>
+              </div>
+            </div>
+          </div>
      <main>
          <ol>
+           <br>
            <h3>Pasos para preparar una tortilla</h3>
            <li>Cortar la papa al medio, utilizando una mitad cortarla de igual manera y rebanarla en pequeñas rodajas.</li>
            <li>Colocar bastante aceite en el sarten. </li>
@@ -73,12 +99,28 @@
          <a href="https://plataforma.potrerodigital.org/"> <img src="./imagen/whatsapp.png" alt="Whatsapp"> </a>
          <a href="https://plataforma.potrerodigital.org/"> <img src="./imagen/instagram.png" alt="instagram"> </a>
        </div>
-       <ul>
-         <li class="sclass">Otras Recetas</li>
-         <li><a href="https://www.paulinacocina.net/croquetas-de-papa-papa-pops/1409">Croquetas de Papa</a></li>
-         <li><a href="https://alicante.com.ar/30-receta-bombas-de-papa">Bomba de Papa</a></li>
-         <li><a href="https://www.lanacion.com.ar/recetas/papas-rellenas-nid15032021/">Papa Rellena</a></li>
-       </ul>
+       <div id="carouselExample" class="carousel slide">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <a href="https://cookpad.com/ar/recetas/97519-bombas-de-papa"><img src="./imagen/bomba.jpg" class="d-block w-100" alt="..."></a>
+           </div>
+           <div class="carousel-item">
+             <a href="https://www.paulinacocina.net/croquetas-de-papa-papa-pops/1409"><img src="./imagen/croqueta.jpg" class="d-block w-100" alt="..."></a>
+           </div>
+           <div class="carousel-item">
+             <a href="https://www.paulinacocina.net/pastel-de-papas/15"><img src="./imagen/pastel.jpg" class="d-block w-100" alt="..."></a>
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
      </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
